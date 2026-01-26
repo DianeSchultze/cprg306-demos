@@ -1,8 +1,12 @@
-export default function PageHeader({ title, description }) {
+export default function PageHeader({
+  title,
+  description,
+  bgColor = "bg-blue-300 dark:bg-blue-700",
+}) {
   return (
-    <header>
-      <h1>{title}</h1>
-      <p>{description}</p>
+    <header className={`m-8 py-12 px-6 ${bgColor}  rounded-xl`}>
+      <h1 className="text-3xl font-bold mb-4">{title}</h1>
+      <p className="text-xl">{description}</p>
     </header>
   );
 }
