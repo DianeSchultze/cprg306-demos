@@ -1,5 +1,5 @@
 import PageHeader from "./components/PageHeader";
-import SiteNav from "./components/SiteNav";
+import DemoNav from "./components/DemoNav";
 export default function Home() {
   const pageHeaderData = {
     title: "CPRG 306 Web App Class",
@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       {/* Pass information to PageHeader */}
       <PageHeader {...pageHeaderData} />
-      <SiteNav />
+      <DemoNav />
     </main>
   );
 }
