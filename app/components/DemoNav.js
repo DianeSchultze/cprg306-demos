@@ -34,6 +34,14 @@ export default function SiteNav() {
       </li>
       <li className="my-2 bg-stone-300 dark:bg-stone-600 p-4 rounded-xl">
         <Link
+          href="week-4"
+          className="hover:text-blue-600 dark:hover:text-blue-300  duration-300 ease-linear"
+        >
+          Week 4
+        </Link>
+      </li>
+      <li className="my-2 bg-stone-300 dark:bg-stone-600 p-4 rounded-xl">
+        <Link
           href="week-5"
           className="hover:text-blue-600 dark:hover:text-blue-300  duration-300 ease-linear"
         >
