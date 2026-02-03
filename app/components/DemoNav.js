@@ -1,4 +1,18 @@
 import Link from "next/link";
+const navItems = [
+  {
+    title: "Week 2",
+    href: "week-2",
+  },
+  {
+    title: "Week 3",
+    href: "week-3",
+  },
+  {
+    title: "Week 4",
+    href: "week-4",
+  },
+];
 export default function SiteNav() {
   return (
     <ul className="my-4 mx-6 text-2xl">
